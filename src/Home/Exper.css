@@ -1,0 +1,26 @@
+.Pura
+{
+    background-color: rgb(97, 97, 97);
+    height: 400px;
+}
+.Down
+{
+    margin-top: 50px;
+}
+
+.c1
+{
+    margin-top: 90px;
+}
+
+/* @media only screen and (max-width:1107px) {
+
+    .Down
+    {
+           height: 700px;
+           
+    }
+
+    
+
+} */

@@ -1,0 +1,72 @@
+.STORE
+{
+    color: #e1ba12;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bolder;
+    background-color: #212529 ;
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: bolder; */
+}
+
+/* .all
+{
+    background-color: #212529;
+} */
+
+.txt
+{
+    color:#e1ba12;
+    text-align: center;
+    border: 4px solid white;
+}
+
+.tasweer
+{
+    /* border-radius: 16px; */
+    border-color: 6px solid white;
+    height: 200px;
+    width: 280px;
+    justify-content: center;
+    border-color:100px solid azure;
+    
+}
+
+
+.tasweer:hover
+{
+     /* width: 200px;
+    height: 100px;  */
+   /* animation-name:example; */
+    /* animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 16s; */
+    transition-timing-function: ease-out;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    
+}
+
+.all
+{
+    background-color: #212529;
+}
+
+
+
+@media only screen and (max-width:1107px) {
+    
+    .tasweer
+    { 
+    
+        width: 100%;
+       
+    }
+
+
+}
+
+.item
+{
+    text-align: center;
+    color: white;
+}

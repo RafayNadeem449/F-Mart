@@ -1,0 +1,119 @@
+.title
+{ 
+    text-align: center;
+    color: #e1ba12;
+}
+
+.FootMain
+{
+    background-color:#212529;
+    text-align: center;
+}
+
+.FootText
+{
+    color:white;
+}
+
+.End
+{ 
+    text-align:center;
+    background-color: #212529;
+    color: #e1ba12;
+    
+}
+
+#info
+{
+    text-align: center;
+}
+
+.al
+{
+    margin: 5px;
+    color: #e1ba12;
+}
+
+.Youtube
+{
+    /* color: red; */
+    color: white;
+    
+}
+
+.Youtube:hover
+{
+    width: 60px;
+    height: 30px;
+   /* animation-name:example; */
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+    
+}
+
+.Instagram
+{
+    /* color: purple; */
+    color: white;
+}
+
+.Instagram:hover
+{
+    width: 60px;
+    height: 30px;
+   /* animation-name:example; */
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+    
+}
+
+.Facebook
+{
+    /* color: blue; */
+    color: white;
+}
+
+.Facebook:hover
+{
+    width: 60px;
+    height: 30px;
+   /* animation-name:example; */
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+    
+}
+
+.Twitter
+{
+    /* color: lightblue; */
+    color: white;
+     
+}
+
+.Twitter:hover
+{
+    width: 60px;
+    height: 30px;
+   /* animation-name:example; */
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 16s;
+    
+}
+
+/* #info
+{   
+ 
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: space-between;
+} */
+ 
+
+    
+    
+  

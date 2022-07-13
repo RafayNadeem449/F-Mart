@@ -1,0 +1,138 @@
+.Top
+{
+    opacity: 0;
+  
+}
+.Top:hover
+{
+    color: black;
+}
+ .me-auto .check:hover
+{
+    color:black !important; 
+     border: 5px solid yellow; 
+    background-color: #e1ba12;
+    border-radius: 6px;
+    text-decoration: underline;
+} 
+.me-auto{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+     opacity: calc(100% - 0.5);
+}
+.align-top
+{
+      z-index: 1;
+      height: 150px;
+      width: 150px;
+    margin-top: -22px;
+    right: 58px;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.Nav
+{
+     margin: 320px;
+     position: absolute;
+}
+
+.Navi
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    
+   
+    /* z-index: 1; */
+}
+
+
+/* .Collapse
+{
+    position: absolute;
+} */
+
+/* .me-auto
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    position: relative;
+
+} */
+
+.me-auto
+{
+  opacity: calc(100% - 0.5);
+}
+
+#Fmart
+{
+    opacity: 2.00;
+}
+
+.me-auto :after,
+.me-auto :before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.5s ease;
+}
+
+.me-auto :after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.me-auto :before {
+  width: 0%;
+  height: 0%;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.me-auto :hover::before,
+.me-auto :hover::after {
+  width: 100%;
+  height: 100%;
+  border-color: #e1ba12;
+}
+
+/* .op{
+  display:flexbox;
+  position: sticky;
+} */
+
+@media only screen and (max-width: 990px) { 
+  
+  #Fmart
+  {
+    height: 110px;
+    width: auto;
+    opacity: 0.8;
+  
+  }
+  .op{
+    width: 100%;
+  }
+
+  
+  
+}
